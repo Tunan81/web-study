@@ -16,6 +16,6 @@ public interface BrandMapper {
      * @return
      */
     @Select("select * from tb_brand")
-    @ResultMap("brandResultMap")
+    @ResultMap("BrandMap")
     List<Brand> selectAll();
 }

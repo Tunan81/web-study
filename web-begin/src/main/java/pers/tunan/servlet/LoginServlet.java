@@ -17,7 +17,7 @@ import java.io.PrintWriter;
  * @author Tunan
  * @version 1.0
  */
-@WebServlet("/loginServlet")
+@WebServlet("/loginServlet02")
 public class LoginServlet extends HttpServlet {
     private SqlSession session;
     @Override

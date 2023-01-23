@@ -136,3 +136,11 @@ input[type="button"]:active, input[type="submit"]:active {
 #reg_btn{
     margin-right:50px; width: 285px; height: 45px; margin-top:20px;
 }
+
+#checkCode{
+    width: 100px;
+}
+
+#changeImg{
+    color: aqua;
+}

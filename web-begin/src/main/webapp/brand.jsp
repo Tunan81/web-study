@@ -9,6 +9,7 @@
     <title>Title</title>
 </head>
 <body>
+<h1>${user.username}</h1>
 <input type="button" value="新增"><br>
 <hr>
 <table border="1" cellspacing="0" width="800">
