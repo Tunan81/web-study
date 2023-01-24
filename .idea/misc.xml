@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cookie" />
+    <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/pro-web-begin" />
     <file type="web" url="file://$PROJECT_DIR$/web-begin" />
   </component>
@@ -11,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/web-begin/pom.xml" />
         <option value="$PROJECT_DIR$/cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/filter-demo/pom.xml" />
       </list>
     </option>
   </component>
