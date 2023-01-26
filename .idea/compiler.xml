@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cookie" />
         <module name="filter-demo" />
+        <module name="ajax-demo" />
         <module name="web-begin" />
+        <module name="vue-demo" />
+        <module name="spring-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pro-web-begin" target="1.5" />
+      <module name="spring-ioc-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ajax-demo" />
     <file type="web" url="file://$PROJECT_DIR$/cookie" />
     <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/pro-web-begin" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-ioc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/vue-demo" />
     <file type="web" url="file://$PROJECT_DIR$/web-begin" />
   </component>
   <component name="MavenProjectsManager">
@@ -13,6 +17,9 @@
         <option value="$PROJECT_DIR$/web-begin/pom.xml" />
         <option value="$PROJECT_DIR$/cookie/pom.xml" />
         <option value="$PROJECT_DIR$/filter-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/vue-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
       </list>
     </option>
   </component>
