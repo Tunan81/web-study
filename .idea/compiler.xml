@@ -11,12 +11,14 @@
         <module name="ajax-demo" />
         <module name="web-begin" />
         <module name="vue-demo" />
+        <module name="spring-02-bean-lifecycle" />
         <module name="spring-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pro-web-begin" target="1.5" />
       <module name="spring-ioc-demo" target="1.5" />
+      <module name="spring-mvc" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

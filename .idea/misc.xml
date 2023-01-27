@@ -6,8 +6,10 @@
     <file type="web" url="file://$PROJECT_DIR$/cookie" />
     <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/pro-web-begin" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-02-bean-lifecycle" />
     <file type="web" url="file://$PROJECT_DIR$/spring-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-ioc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
     <file type="web" url="file://$PROJECT_DIR$/vue-demo" />
     <file type="web" url="file://$PROJECT_DIR$/web-begin" />
   </component>
@@ -20,6 +22,7 @@
         <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
         <option value="$PROJECT_DIR$/vue-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-02-bean-lifecycle/pom.xml" />
       </list>
     </option>
   </component>

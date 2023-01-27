@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
-       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
-    <bean id="userDao" class="pers.tunan.dao.impl.UserDaoimpl"/>
-    <bean id="userService" class="pers.tunan.service.impl.UserService" p:userDao-ref="userDao"></bean>
+    <!--1.导入spring坐标-->
+    <!--2.配置bean-->
+    <!--
+        2.1:id属性表示给bean起名字
+        2.2：class属性表示给bean定义类型
+    -->
+
+    <!--可以对bean起别名 name 然后在getbean中用起的别名-->
+    <!--scope可以控制造出的对象是否为同一对象-->
+    <!--默认为singleton:单例   p'rototype：非单例-->
+    <!--bean本质上就是对象-->
+
+    <bean id="userDao" class="pers.tunan.dao.impl.UserDaoImpl" scope="prototype"/>
+    <bean id="userService" name="service serviceimpl" class="pers.tunan.service.impl.UserServiceimpl">
+        <!--7.配置servicedao与dao的关系-->
+        <!--property标签表示配置当前bean的属性
+            name表示配置哪一个具体的属性
+            ref属性表示参照哪一个bean-->
+        <property name="userDao" ref="userDao"/>
+
+    </bean>
+
+    <!--第四种方式-->
+    <bean id="bookDao" class="pers.tunan.factory.BookDaoFactoryBean"/>
 </beans>
 

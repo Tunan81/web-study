@@ -2,23 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>spring-demo</artifactId>
+  <artifactId>spring-02-bean-lifecycle</artifactId>
   <packaging>war</packaging>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>6</source>
-          <target>6</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
   <version>1.0-SNAPSHOT</version>
-  <name>spring-demo Maven Webapp</name>
+  <name>spring-02-bean-lifecycle Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
 
@@ -37,4 +24,8 @@
     </dependency>
   </dependencies>
 
+
+  <build>
+    <finalName>spring-02-bean-lifecycle</finalName>
+  </build>
 </project>
