@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-06-junit/pom.xml" />
         <option value="$PROJECT_DIR$/spring-07-aop-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-08-case-interface-run-speed/pom.xml" />
       </list>
     </option>
   </component>

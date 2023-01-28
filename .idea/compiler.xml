@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-06-junit" />
+        <module name="spring-08-case-interface-run-speed" />
         <module name="cookie" />
         <module name="ajax-demo" />
         <module name="spring-03-di-constructor" />
