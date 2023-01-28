@@ -6,17 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-06-junit" />
         <module name="cookie" />
-        <module name="filter-demo" />
         <module name="ajax-demo" />
-        <module name="web-begin" />
+        <module name="spring-03-di-constructor" />
         <module name="vue-demo" />
-        <module name="spring-02-bean-lifecycle" />
+        <module name="spring-07-aop-quickstart" />
+        <module name="spring-05-annotation-bean" />
+        <module name="spring-mybatis" />
         <module name="spring-demo" />
+        <module name="spring-annotation-di" />
+        <module name="filter-demo" />
+        <module name="web-begin" />
+        <module name="spring-04-di-autoware" />
+        <module name="spring-02-bean-lifecycle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pro-web-begin" target="1.5" />
+      <module name="spring-06-annotation-di" target="1.8" />
       <module name="spring-ioc-demo" target="1.5" />
       <module name="spring-mvc" target="1.5" />
     </bytecodeTargetLevel>

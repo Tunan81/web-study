@@ -7,6 +7,10 @@
     <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/pro-web-begin" />
     <file type="web" url="file://$PROJECT_DIR$/spring-02-bean-lifecycle" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-02-di-constructor" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-03-di-constructor" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-04-di-autoware" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-05-annotation-bean" />
     <file type="web" url="file://$PROJECT_DIR$/spring-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-ioc-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
@@ -23,6 +27,14 @@
         <option value="$PROJECT_DIR$/vue-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-02-bean-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-03-di-constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-04-di-autoware/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-05-annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-05-annotation-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation-di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-06-junit/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-07-aop-quickstart/pom.xml" />
       </list>
     </option>
   </component>

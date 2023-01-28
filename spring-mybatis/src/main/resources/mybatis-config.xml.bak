@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--读取外部properties配置文件-->
+    <properties resource="jdbc.properties"/>
+
+    <typeAliases>
+        <package name="pers.tunan.domain"/>
+    </typeAliases>
+
+    <!--environments：配置数据库连接环境信息-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--连接信息-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--加载sql映射文件-->
+        <!--<mapper resource="pers/tunan/mapper/UserMapper.xml"/>-->
+        <!--Mapper代理-->
+        <package name="pers.tunan.dao"/>
+    </mappers>
+</configuration>
