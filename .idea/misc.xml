@@ -14,6 +14,9 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-ioc-demo" />
     <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-request-mapping" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-rest" />
     <file type="web" url="file://$PROJECT_DIR$/vue-demo" />
     <file type="web" url="file://$PROJECT_DIR$/web-begin" />
   </component>
@@ -36,6 +39,9 @@
         <option value="$PROJECT_DIR$/spring-06-junit/pom.xml" />
         <option value="$PROJECT_DIR$/spring-07-aop-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/spring-08-case-interface-run-speed/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-request-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-rest/pom.xml" />
       </list>
     </option>
   </component>

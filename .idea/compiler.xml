@@ -10,13 +10,16 @@
         <module name="spring-08-case-interface-run-speed" />
         <module name="cookie" />
         <module name="ajax-demo" />
+        <module name="springmvc-rest" />
         <module name="spring-03-di-constructor" />
         <module name="vue-demo" />
         <module name="spring-07-aop-quickstart" />
         <module name="spring-05-annotation-bean" />
         <module name="spring-mybatis" />
+        <module name="springmvc-request-mapping" />
         <module name="spring-demo" />
         <module name="spring-annotation-di" />
+        <module name="springmvc-demo" />
         <module name="filter-demo" />
         <module name="web-begin" />
         <module name="spring-04-di-autoware" />
