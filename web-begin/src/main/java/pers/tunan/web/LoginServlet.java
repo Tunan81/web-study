@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 @WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {
-    private UserService service = new UserService();
+    private final UserService service = new UserService();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //1.获取用户名和密码

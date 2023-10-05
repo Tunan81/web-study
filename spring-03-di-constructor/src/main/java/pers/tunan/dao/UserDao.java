@@ -5,5 +5,5 @@ package pers.tunan.dao;
  * @version 1.0
  */
 public interface UserDao {
-    public void save();
+    void save();
 }

@@ -12,6 +12,7 @@ import java.io.IOException;
  * @version 1.0
  * 学习：urlpattern配置
  */
+
 @WebServlet(urlPatterns = {"/demo06","/demo07"})
 public class ServletDemo06 extends HttpServlet {
     /**

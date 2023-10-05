@@ -7,8 +7,8 @@ import pers.tunan.dao.BookDao;
  * @version 1.0
  */
 public class BookDaoImpl implements BookDao {
-    private String databaseName;
-    private int connectionNum;
+    private final String databaseName;
+    private final int connectionNum;
 
     public BookDaoImpl(String databaseName, int connectionNum) {
         this.databaseName = databaseName;

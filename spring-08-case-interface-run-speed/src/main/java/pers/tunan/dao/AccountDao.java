@@ -4,6 +4,7 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
+import org.springframework.stereotype.Component;
 import pers.tunan.domain.Account;
 
 import java.util.List;
@@ -12,6 +13,8 @@ import java.util.List;
  * @author Tunan
  * @version 1.0
  */
+
+@Component
 public interface AccountDao {
 
     @Insert("insert into tbl_account(name,money)values(#{name},#{money})")

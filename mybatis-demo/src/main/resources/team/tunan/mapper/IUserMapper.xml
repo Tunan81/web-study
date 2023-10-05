@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="team.tunan.mapper.IUserMapper">
+    <!--配置查询所有-->
+    <!--id为方法名称-->
+    <select id="findAll" resultType="team.tunan.domain.User">
+        select * from smbms.smbms_user
+    </select>
+    <select id="findById" resultType="team.tunan.domain.User">
+        select * from smbms.smbms_user where id=#{id}
+    </select>
+</mapper>

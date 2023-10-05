@@ -19,6 +19,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springmvc-rest" />
     <file type="web" url="file://$PROJECT_DIR$/vue-demo" />
     <file type="web" url="file://$PROJECT_DIR$/web-begin" />
+    <file type="web" url="file://$PROJECT_DIR$/web-cs" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -42,7 +43,17 @@
         <option value="$PROJECT_DIR$/springmvc-demo/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-request-mapping/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/web-cs/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-case-handle_password/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-flex-demo/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/web-begin/web-school/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="1.8" project-jdk-type="JavaSDK">

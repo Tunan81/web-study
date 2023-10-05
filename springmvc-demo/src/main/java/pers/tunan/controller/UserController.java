@@ -17,8 +17,8 @@ public class UserController {
     @RequestMapping("/save")
     //2.3设置当前操作的返回值类型
     @ResponseBody
-    public String save(){
-        System.out.println("user save...");
+    public String save(String name){
+        System.out.println("user save...中文" + name);
         return "{'module':'springmvc'}";
     }
 }

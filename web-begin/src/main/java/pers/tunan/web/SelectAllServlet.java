@@ -7,6 +7,7 @@ package pers.tunan.web;
 import pers.tunan.pojo.Brand;
 import pers.tunan.service.BrandService;
 
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
@@ -15,7 +16,8 @@ import java.util.List;
 
 @WebServlet("/selectAllServlet")
 public class SelectAllServlet extends HttpServlet {
-    private BrandService service = new BrandService();
+    private final BrandService service = new BrandService();
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1.调用BrandService完成查询

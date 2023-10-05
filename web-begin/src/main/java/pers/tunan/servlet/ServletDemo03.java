@@ -14,7 +14,6 @@ public class ServletDemo03 implements Servlet {
     private ServletConfig config;
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        this.config = config;
     }
 
     @Override

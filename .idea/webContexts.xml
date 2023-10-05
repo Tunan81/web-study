@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/ajax-demo/src/main/webapp/test.jsp" value="file://$PROJECT_DIR$/ajax-demo/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/vue-demo/src/main/webapp/01-vue-demo.html" value="file://$PROJECT_DIR$/vue-demo/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/vue-demo/src/main/webapp/03-vue-for.html" value="file://$PROJECT_DIR$/vue-demo/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/vue-demo/src/main/webapp/brand.html" value="file://$PROJECT_DIR$/vue-demo/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/web-begin/src/main/webapp/brand.jsp" value="file://$PROJECT_DIR$/web-begin/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/web-cs/src/main/webapp/jdbc.jsp" value="file://$PROJECT_DIR$/web-cs/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/web-cs/src/main/webapp/login.jsp" value="file://$PROJECT_DIR$/web-cs/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/web-cs/src/main/webapp/register.jsp" value="file://$PROJECT_DIR$/web-cs/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

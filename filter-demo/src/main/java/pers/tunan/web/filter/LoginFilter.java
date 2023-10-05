@@ -21,15 +21,15 @@ public class LoginFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
 
         //判断访问的资源路径是否和登录注册相关
-        String[] urls = {"/login.jsp","/imgs/","/css/","LoginServlet","/register.jsp","registerServlet"};
+        String[] urls = {"/login.jsp", "/imgs/", "/css/", "LoginServlet", "/register.jsp", "registerServlet"};
         //获取当前访问资源的路径
         String url = req.getRequestURL().toString();
 
         //循环遍历
-        for (String u:urls){
-            if (url.contains(u)){
+        for (String u : urls) {
+            if (url.contains(u)) {
                 //放行
-                filterChain.doFilter(servletRequest,servletResponse);
+                filterChain.doFilter(servletRequest, servletResponse);
                 return;
             }
         }
@@ -39,13 +39,13 @@ public class LoginFilter implements Filter {
         Object u = session.getAttribute("user");
 
         //2.判断user
-        if (u != null){
+        if (u != null) {
             //登录过了
             //放行
-            filterChain.doFilter(servletRequest,servletResponse);
-        }else {
-         req.setAttribute("login_msg","您尚为登录！");
-         req.getRequestDispatcher("/login.jsp").forward(servletRequest,servletResponse);
+            filterChain.doFilter(servletRequest, servletResponse);
+        } else {
+            req.setAttribute("login_msg", "您尚为登录！");
+            req.getRequestDispatcher("/login.jsp").forward(servletRequest, servletResponse);
         }
     }
 

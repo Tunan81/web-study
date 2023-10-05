@@ -13,7 +13,7 @@ import java.util.List;
  * @version 1.0
  */
 public class BrandService {
-    private SqlSession session;
+    private final SqlSession session;
 
     public BrandService(){
         session = MapperConfig.getSession();

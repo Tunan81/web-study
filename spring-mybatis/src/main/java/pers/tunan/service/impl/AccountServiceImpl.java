@@ -6,6 +6,7 @@ import pers.tunan.dao.AccountDao;
 import pers.tunan.domain.Account;
 import pers.tunan.service.AccountService;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ import java.util.List;
 @Service
 public class AccountServiceImpl implements AccountService {
 
-    @Autowired
+    @Resource
     private AccountDao accountDao;
 
     public void save(Account account) {

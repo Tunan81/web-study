@@ -19,7 +19,6 @@ public class app2 {
         //userDao.save();
         UserService userService = (UserService) ctx.getBean("service");
         userService.save();
-
     }
 }
 

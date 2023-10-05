@@ -9,8 +9,8 @@ import pers.tunan.service.BookService;
  * @version 1.0
  */
 public class BookServiceImpl implements BookService {
-    private BookDao bookDao;
-    private UserDao userDao;
+    private final BookDao bookDao;
+    private final UserDao userDao;
 
     public BookServiceImpl(BookDao bookDao, UserDao userDao) {
         this.bookDao = bookDao;

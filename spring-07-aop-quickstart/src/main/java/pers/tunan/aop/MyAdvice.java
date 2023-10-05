@@ -12,9 +12,16 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class MyAdvice {
+
+    /**
+     * 切入点
+     */
     @Pointcut("execution(void pers.tunan.dao.BookDao.update())")
     private void pt(){}
 
+    /**
+     * 前置通知
+     */
     @Before("pt()")
     public void method(){
         System.out.println(System.currentTimeMillis());

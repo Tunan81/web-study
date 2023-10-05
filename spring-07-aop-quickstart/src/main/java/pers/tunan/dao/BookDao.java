@@ -7,6 +7,8 @@ package pers.tunan.dao;
  */
 
 public interface BookDao {
-    public void save();
-    public void update();
+    void save();
+    void update();
+
+    void delete();
 }

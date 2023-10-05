@@ -5,5 +5,5 @@ package pers.tunan.service;
  * @version 1.0
  */
 public interface BookService {
-    public void save();
+    void save();
 }
